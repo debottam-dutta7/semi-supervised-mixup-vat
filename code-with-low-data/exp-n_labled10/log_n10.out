@@ -1,0 +1,209 @@
+GPU num:  1
+Whether mix:  True
+Mix layers sets:  [7, 9, 12]
+Using vat? False
+#Labeled: 100, Unlabeled 5000, Val 2000, Test 9999
+epoch 0, step 0, loss 2.2223708629608154, Lx 2.2223708629608154, Lu 0.04941905662417412, Lu2 1.5934720039367676
+Sample some true labeles and predicted labels
+tensor([1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+       device='cuda:0')
+tensor([3, 7, 4, 8, 6, 4, 7, 1, 1, 7, 7, 3, 3, 7, 2, 8, 2, 4, 7, 6],
+       device='cuda:0')
+epoch 0, val acc 0.1, val_loss 2.539815860748291
+Epoch:  0
+Best acc:
+0.1
+Epoch 0 took 56.02 sec
+epoch 1, step 0, loss 2.3290529251098633, Lx 2.314999580383301, Lu 0.2810651659965515, Lu2 1.3169782161712646
+Sample some true labeles and predicted labels
+tensor([1, 1, 8, 8, 8, 8, 8, 8, 1, 8, 8, 1, 1, 8, 8, 8, 8, 8, 8, 8],
+       device='cuda:0')
+tensor([3, 7, 4, 8, 6, 4, 7, 1, 1, 7, 7, 3, 3, 7, 2, 8, 2, 4, 7, 6],
+       device='cuda:0')
+epoch 1, val acc 0.1035, val_loss 2.6126896800994874
+Epoch:  1
+Best acc:
+0.1035
+Epoch 1 took 54.84 sec
+epoch 2, step 0, loss 2.368364095687866, Lx 2.3383073806762695, Lu 0.300566166639328, Lu2 1.2553064823150635
+Sample some true labeles and predicted labels
+tensor([8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8],
+       device='cuda:0')
+tensor([3, 7, 4, 8, 6, 4, 7, 1, 1, 7, 7, 3, 3, 7, 2, 8, 2, 4, 7, 6],
+       device='cuda:0')
+epoch 2, val acc 0.1, val_loss 2.5928596782684328
+Epoch:  2
+Best acc:
+0.1035
+Epoch 2 took 55.11 sec
+epoch 3, step 0, loss 1.860261082649231, Lx 1.822587490081787, Lu 0.25115689635276794, Lu2 1.24365234375
+Sample some true labeles and predicted labels
+tensor([8, 4, 8, 8, 8, 8, 8, 8, 8, 8, 8, 1, 8, 8, 8, 8, 8, 8, 8, 8],
+       device='cuda:0')
+tensor([3, 7, 4, 8, 6, 4, 7, 1, 1, 7, 7, 3, 3, 7, 2, 8, 2, 4, 7, 6],
+       device='cuda:0')
+epoch 3, val acc 0.1135, val_loss 2.3467497119903564
+Epoch:  3
+Best acc:
+0.1135
+Epoch 3 took 55.56 sec
+epoch 4, step 0, loss 2.340515375137329, Lx 2.312059164047241, Lu 0.14228138327598572, Lu2 1.5145034790039062
+Sample some true labeles and predicted labels
+tensor([1, 4, 3, 3, 3, 3, 1, 1, 1, 3, 3, 1, 1, 3, 3, 3, 3, 3, 3, 1],
+       device='cuda:0')
+tensor([3, 7, 4, 8, 6, 4, 7, 1, 1, 7, 7, 3, 3, 7, 2, 8, 2, 4, 7, 6],
+       device='cuda:0')
+epoch 4, val acc 0.121, val_loss 2.329146633148193
+Epoch:  4
+Best acc:
+0.121
+Epoch 4 took 55.13 sec
+epoch 5, step 0, loss 2.0181620121002197, Lx 1.995671272277832, Lu 0.08996255695819855, Lu2 1.5604844093322754
+Sample some true labeles and predicted labels
+tensor([1, 1, 5, 5, 5, 1, 1, 1, 1, 5, 5, 1, 1, 5, 5, 5, 5, 5, 5, 1],
+       device='cuda:0')
+tensor([3, 7, 4, 8, 6, 4, 7, 1, 1, 7, 7, 3, 3, 7, 2, 8, 2, 4, 7, 6],
+       device='cuda:0')
+epoch 5, val acc 0.132, val_loss 2.403267183303833
+Epoch:  5
+Best acc:
+0.132
+Epoch 5 took 54.66 sec
+epoch 6, step 0, loss 2.4109816551208496, Lx 2.3429036140441895, Lu 0.22692708671092987, Lu2 1.4744603633880615
+Sample some true labeles and predicted labels
+tensor([2, 2, 5, 5, 5, 5, 1, 5, 1, 5, 5, 2, 2, 5, 5, 5, 5, 5, 5, 1],
+       device='cuda:0')
+tensor([3, 7, 4, 8, 6, 4, 7, 1, 1, 7, 7, 3, 3, 7, 2, 8, 2, 4, 7, 6],
+       device='cuda:0')
+epoch 6, val acc 0.1205, val_loss 2.380782012939453
+Epoch:  6
+Best acc:
+0.132
+Epoch 6 took 54.96 sec
+epoch 7, step 0, loss 1.9665465354919434, Lx 1.8564105033874512, Lu 0.3146742582321167, Lu2 1.448411464691162
+Sample some true labeles and predicted labels
+tensor([2, 2, 7, 7, 7, 7, 2, 7, 2, 7, 7, 2, 2, 5, 7, 7, 7, 7, 7, 2],
+       device='cuda:0')
+tensor([3, 7, 4, 8, 6, 4, 7, 1, 1, 7, 7, 3, 3, 7, 2, 8, 2, 4, 7, 6],
+       device='cuda:0')
+epoch 7, val acc 0.114, val_loss 2.3918783130645753
+Epoch:  7
+Best acc:
+0.132
+Epoch 7 took 55.10 sec
+epoch 8, step 0, loss 2.088629722595215, Lx 1.9647915363311768, Lu 0.3095954656600952, Lu2 1.4268558025360107
+Sample some true labeles and predicted labels
+tensor([2, 2, 5, 5, 5, 5, 2, 5, 2, 5, 5, 2, 2, 5, 5, 5, 5, 5, 5, 2],
+       device='cuda:0')
+tensor([3, 7, 4, 8, 6, 4, 7, 1, 1, 7, 7, 3, 3, 7, 2, 8, 2, 4, 7, 6],
+       device='cuda:0')
+epoch 8, val acc 0.1145, val_loss 2.5500270385742185
+Epoch:  8
+Best acc:
+0.132
+Epoch 8 took 55.41 sec
+epoch 9, step 0, loss 1.6621893644332886, Lx 1.5018534660339355, Lu 0.35630202293395996, Lu2 1.2517348527908325
+Sample some true labeles and predicted labels
+tensor([2, 2, 5, 5, 5, 5, 2, 2, 2, 5, 5, 2, 2, 5, 5, 5, 5, 5, 5, 2],
+       device='cuda:0')
+tensor([3, 7, 4, 8, 6, 4, 7, 1, 1, 7, 7, 3, 3, 7, 2, 8, 2, 4, 7, 6],
+       device='cuda:0')
+epoch 9, val acc 0.114, val_loss 2.670999849319458
+Epoch:  9
+Best acc:
+0.132
+Epoch 9 took 54.88 sec
+epoch 10, step 0, loss 2.1493241786956787, Lx 1.9180901050567627, Lu 0.4624679684638977, Lu2 1.026512622833252
+Sample some true labeles and predicted labels
+tensor([2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+       device='cuda:0')
+tensor([3, 7, 4, 8, 6, 4, 7, 1, 1, 7, 7, 3, 3, 7, 2, 8, 2, 4, 7, 6],
+       device='cuda:0')
+epoch 10, val acc 0.1, val_loss 2.6087915897369385
+Epoch:  10
+Best acc:
+0.132
+Epoch 10 took 55.31 sec
+epoch 11, step 0, loss 2.448857545852661, Lx 2.275491237640381, Lu 0.3152116537094116, Lu2 1.0584436655044556
+Sample some true labeles and predicted labels
+tensor([2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+       device='cuda:0')
+tensor([3, 7, 4, 8, 6, 4, 7, 1, 1, 7, 7, 3, 3, 7, 2, 8, 2, 4, 7, 6],
+       device='cuda:0')
+epoch 11, val acc 0.1, val_loss 2.657096097946167
+Epoch:  11
+Best acc:
+0.132
+Epoch 11 took 55.90 sec
+epoch 12, step 0, loss 1.7289669513702393, Lx 1.5253443717956543, Lu 0.33937084674835205, Lu2 0.8808116912841797
+Sample some true labeles and predicted labels
+tensor([2, 2, 5, 5, 5, 5, 2, 5, 2, 5, 5, 2, 2, 5, 5, 5, 5, 5, 5, 2],
+       device='cuda:0')
+tensor([3, 7, 4, 8, 6, 4, 7, 1, 1, 7, 7, 3, 3, 7, 2, 8, 2, 4, 7, 6],
+       device='cuda:0')
+epoch 12, val acc 0.116, val_loss 2.7046124305725097
+Epoch:  12
+Best acc:
+0.132
+Epoch 12 took 56.09 sec
+epoch 13, step 0, loss 1.7095296382904053, Lx 1.5136387348175049, Lu 0.3013705611228943, Lu2 0.9789780974388123
+Sample some true labeles and predicted labels
+tensor([2, 4, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2],
+       device='cuda:0')
+tensor([3, 7, 4, 8, 6, 4, 7, 1, 1, 7, 7, 3, 3, 7, 2, 8, 2, 4, 7, 6],
+       device='cuda:0')
+epoch 13, val acc 0.1275, val_loss 2.6118439235687254
+Epoch:  13
+Best acc:
+0.132
+Epoch 13 took 55.75 sec
+epoch 14, step 0, loss 3.409844160079956, Lx 3.2173914909362793, Lu 0.27493250370025635, Lu2 0.9572069644927979
+Sample some true labeles and predicted labels
+tensor([2, 4, 3, 5, 2, 2, 2, 2, 2, 5, 5, 1, 2, 2, 3, 5, 2, 3, 5, 2],
+       device='cuda:0')
+tensor([3, 7, 4, 8, 6, 4, 7, 1, 1, 7, 7, 3, 3, 7, 2, 8, 2, 4, 7, 6],
+       device='cuda:0')
+epoch 14, val acc 0.1365, val_loss 2.537589847564697
+Epoch:  14
+Best acc:
+0.1365
+Epoch 14 took 55.07 sec
+epoch 15, step 0, loss 3.1377921104431152, Lx 2.842665910720825, Lu 0.39350149035453796, Lu2 1.086155652999878
+Sample some true labeles and predicted labels
+tensor([2, 4, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2],
+       device='cuda:0')
+tensor([3, 7, 4, 8, 6, 4, 7, 1, 1, 7, 7, 3, 3, 7, 2, 8, 2, 4, 7, 6],
+       device='cuda:0')
+epoch 15, val acc 0.1175, val_loss 2.7830966243743895
+Epoch:  15
+Best acc:
+0.1365
+Epoch 15 took 55.95 sec
+epoch 16, step 0, loss 1.9945034980773926, Lx 1.760988473892212, Lu 0.29189372062683105, Lu2 0.752696692943573
+Sample some true labeles and predicted labels
+tensor([1, 4, 4, 2, 2, 2, 2, 1, 1, 2, 2, 1, 2, 4, 2, 2, 2, 2, 2, 2],
+       device='cuda:0')
+tensor([3, 7, 4, 8, 6, 4, 7, 1, 1, 7, 7, 3, 3, 7, 2, 8, 2, 4, 7, 6],
+       device='cuda:0')
+epoch 16, val acc 0.2125, val_loss 2.397364595413208
+Epoch:  16
+Best acc:
+0.2125
+Epoch 16 took 54.70 sec
+epoch 17, step 0, loss 2.0733351707458496, Lx 1.776803970336914, Lu 0.34886032342910767, Lu2 0.9464702606201172
+Sample some true labeles and predicted labels
+tensor([1, 1, 1, 5, 6, 1, 2, 1, 1, 5, 5, 1, 1, 5, 2, 5, 2, 2, 2, 1],
+       device='cuda:0')
+tensor([3, 7, 4, 8, 6, 4, 7, 1, 1, 7, 7, 3, 3, 7, 2, 8, 2, 4, 7, 6],
+       device='cuda:0')
+epoch 17, val acc 0.2235, val_loss 2.2612092761993408
+Epoch:  17
+Best acc:
+0.2235
+Epoch 17 took 55.95 sec
+epoch 18, step 0, loss 2.4645438194274902, Lx 2.1896822452545166, Lu 0.30540168285369873, Lu2 1.2021421194076538
+Sample some true labeles and predicted labels
+tensor([1, 4, 1, 8, 8, 1, 8, 1, 1, 5, 5, 1, 2, 5, 2, 8, 2, 8, 8, 8],
+       device='cuda:0')
+tensor([3, 7, 4, 8, 6, 4, 7, 1, 1, 7, 7, 3, 3, 7, 2, 8, 2, 4, 7, 6],
+       device='cuda:0')
